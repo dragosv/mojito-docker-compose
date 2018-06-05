@@ -37,6 +37,7 @@ services:
       "spring.datasource.username" : "$MYSQL_USER",
       "spring.datasource.password" : "$MYSQL_PASSWORD",
       "spring.datasource.driverClassName" : "com.mysql.jdbc.Driver",
+      "spring.datasource" : "true",
       "spring.datasource.validation-query" : "SELECT 1",
       "l10n.security.authenticationType" : "$AUTHENTICATION_TYPE",
       "l10n.security.ldap.url" : "$LDAP_URL",
